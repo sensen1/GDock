@@ -11,7 +11,7 @@
 # Modify default IP
 sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 # Modify default host name
-sed -i 's/Openwrt/Kyara/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/Kyara/g' package/base-files/files/bin/config_generate
 # Modify default wireless name
-sed -i 's/Openwrt/Kyara/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/OpenWrt/Kyara/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
