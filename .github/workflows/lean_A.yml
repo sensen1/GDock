@@ -6,15 +6,15 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Lede增强
+name: Lede A
 
 on:
   repository_dispatch:
   release:
     types: published
-#  push:
-#    branches:
-#      - master
+  push:
+    branches:
+      - master
     paths:
       - 'lede_A.config'
   schedule:
