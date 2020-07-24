@@ -6,15 +6,15 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Lede精简
+name: Lede B
 
 on:
   repository_dispatch:
   release:
     types: published
-#  push:
-#    branches:
-#      - master
+  push:
+    branches:
+      - master
     paths:
       - 'lede_B.config'
   schedule:
