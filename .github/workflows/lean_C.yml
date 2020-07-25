@@ -19,7 +19,7 @@ on:
       - 'lede_C.config'
   schedule:
     - cron: 0 8 * * 5
-    - cron: 0 2 * * 6
+    - cron: 49 10 * * 6
 #  watch:
 #    types: started
 
@@ -44,7 +44,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@lede-17.01
 
     - name: Initialization environment
       env:
