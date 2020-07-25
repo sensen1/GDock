@@ -7,7 +7,8 @@
 # Author: P3TERX
 # Blog: https://p3terx.com
 #============================================================
-
+# luci-theme-infinityfreedom
+git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git feeds/luci/themes/luci-theme-infinityfreedom
 # Modify default IP
 sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 # Modify default host name

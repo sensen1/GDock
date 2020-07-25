@@ -11,8 +11,7 @@
 git clone https://github.com/fw876/helloworld package/SSRPlus
 #Clone OpenAppFilter source code
 git clone https://github.com/kyarazhan/OpenAppFilter package/OpenAppFilter
-# luci-theme-infinityfreedom
-git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git feeds/luci/themes/luci-theme-infinityfreedom
+
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
