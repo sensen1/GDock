@@ -19,7 +19,7 @@ on:
       - 'lede_C.config'
   schedule:
     - cron: 0 8 * * 5
-    - cron: 4 11 * * 6
+    - cron: 50 11 * * 6
 #  watch:
 #    types: started
 
@@ -28,8 +28,8 @@ env:
   REPO_BRANCH: lede-17.01
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: lede_C.config
-  DIY_P1_SH: lede_diy-part1.sh
-  DIY_P2_SH: lede_diy-part2.sh
+  DIY_P1_SH: lede_c_diy-part1.sh
+  DIY_P2_SH: lede_c_diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
