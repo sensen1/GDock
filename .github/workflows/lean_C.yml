@@ -19,13 +19,13 @@ on:
       - 'lede_C.config'
   schedule:
     - cron: 0 8 * * 5
-    - cron: 49 10 * * 6
+    - cron: 4 11 * * 6
 #  watch:
 #    types: started
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/openwrt
-  REPO_BRANCH: master
+  REPO_BRANCH: lede-17.01
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: lede_C.config
   DIY_P1_SH: lede_diy-part1.sh
@@ -44,7 +44,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@lede-17.01
+      uses: actions/checkout@main
 
     - name: Initialization environment
       env:
