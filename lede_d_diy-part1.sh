@@ -1,4 +1,4 @@
-#!/bin/bash
+﻿#!/bin/bash
 #=============================================================
 # https://github.com/P3TERX/Actions-OpenWrt
 # File name: diy-part1.sh
@@ -7,8 +7,6 @@
 # Author: P3TERX
 # Blog: https://p3terx.com
 #=============================================================
-#git lua-maxminddb 依赖
-git clone https://github.com/jerrykuku/lua-maxminddb.git  
 #Clone VSSR source code
 git clone https://github.com/jerrykuku/luci-app-vssr
 #Clone OpenAppFilter source code

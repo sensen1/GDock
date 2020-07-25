@@ -7,8 +7,11 @@
 # Author: P3TERX
 # Blog: https://p3terx.com
 #============================================================
-# luci-theme-infinityfreedom
-git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git feeds/luci/themes/luci-theme-infinityfreedom
+# 删除默认argon主题，并下载新argon主题
+rm -rf ./package/lean/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon.git ./package/lean/luci-theme-argon/
+#git lua-maxminddb 依赖
+git clone https://github.com/jerrykuku/lua-maxminddb.git ./package/lean/
 # Modify default IP
 sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 # Modify default host name
