@@ -19,6 +19,7 @@ on:
       - 'lede_C.config'
   schedule:
     - cron: 0 8 * * 5
+    - cron: 50 1 * * 6
 #  watch:
 #    types: started
 
