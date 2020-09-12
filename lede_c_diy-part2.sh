@@ -13,8 +13,8 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git ./package/l
 #git lua-maxminddb 依赖
 git clone https://github.com/jerrykuku/lua-maxminddb.git ./package/lean/
 #Makefile' has a dependency on 'libnss'临时解决方案
-svn co https://github.com/Lienol/openwrt-packages/trunk/libs/nss package/nss
-svn co https://github.com/Lienol/openwrt-packages/trunk/libs/nspr package/nspr
+#svn co https://github.com/Lienol/openwrt-packages/trunk/libs/nss package/nss
+#svn co https://github.com/Lienol/openwrt-packages/trunk/libs/nspr package/nspr
 # Modify default IP
 sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 # Modify default host name
