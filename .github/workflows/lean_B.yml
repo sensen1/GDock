@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Lede B
+name: GDock B
 
 on:
   repository_dispatch:
@@ -27,8 +27,8 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: lede_B.config
-  DIY_P1_SH: lede_diy-part1.sh
-  DIY_P2_SH: lede_diy-part2.sh
+  DIY_P1_SH: lede_b_diy-part1.sh
+  DIY_P2_SH: lede_b_diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
