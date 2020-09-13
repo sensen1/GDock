@@ -1,4 +1,4 @@
-#!/bin/bash
+﻿#!/bin/bash
 #============================================================
 # https://github.com/P3TERX/Actions-OpenWrt
 # File name: diy-part2.sh
@@ -9,7 +9,7 @@
 #============================================================
 # 删除默认argon主题，并下载新argon主题
 rm -rf ./package/lean/luci-theme-argon
-git clone https://github.com/jerrykuku/luci-theme-argon.git ./package/lean/luci-theme-argon/
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  ./package/lean/luci-theme-argon/
 #git lua-maxminddb 依赖
 git clone https://github.com/jerrykuku/lua-maxminddb.git ./package/lean/
 # Modify default IP

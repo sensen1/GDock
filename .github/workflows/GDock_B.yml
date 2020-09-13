@@ -6,17 +6,17 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Lede增强
+name: GDock B
 
 on:
   repository_dispatch:
   release:
     types: published
-#  push:
-#    branches:
-#      - master
+  push:
+    branches:
+      - master
     paths:
-      - 'lede_A.config'
+      - 'GDock_B.config'
   schedule:
     - cron: 0 8 * * 5
 #  watch:
@@ -26,9 +26,9 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: lede_A.config
-  DIY_P1_SH: lede_diy-part1.sh
-  DIY_P2_SH: lede_diy-part2.sh
+  CONFIG_FILE: GDock_B.config
+  DIY_P1_SH: GDock_B_diy-part1.sh
+  DIY_P2_SH: GDock_B_diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
